@@ -130,7 +130,7 @@ class signUpMethods {
   // After a short timeout, redirect to client‐side page
   static authRedirecting() {
     setTimeout(() => {
-      window.location.replace('http://127.0.0.1:5500/client-side.html');
+      window.location.replace('https://cafedemia.netlify.app/client-side.html');
     }, 500);
   }
 
@@ -150,7 +150,7 @@ class signUpMethods {
   firebaseAuthRedirect() {
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        window.location.replace('http://127.0.0.1:5500/client-side.html');
+        window.location.replace('https://cafedemia.netlify.app/client-side.html');
       }
     });
   }
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
               showConfirmButton: false
             });
             setTimeout(() => {
-              window.location.replace("http://127.0.0.1:5500/index.html");
+              window.location.replace("https://cafedemia.netlify.app/index.html");
             }, 1000);
           })
           .catch(error => {
