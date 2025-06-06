@@ -307,4 +307,21 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+  // Call this function after order is placed successfully
+function redirectAfterOrder() {
+  // Change this URL to your deployed Netlify URL + user-orders page
+  const redirectUrl = 'https://cafedemia.netlify.app/user-orders.html';
+
+  // Redirect to the orders page
+  window.location.href = redirectUrl;
+}
+
+// Example usage: after order save success
+function placeOrder() {
+  // your order placing logic here ...
+
+  // On successful order save
+  redirectAfterOrder();
+}
+
 });
