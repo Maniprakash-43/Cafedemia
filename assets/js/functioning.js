@@ -130,7 +130,7 @@ class signUpMethods {
   // After a short timeout, redirect to client‐side page
   static authRedirecting() {
     setTimeout(() => {
-      window.location.replace('client-side.html');
+      window.location.replace('https://cafedemia.netlify.app/client-side.html');
     }, 500);
   }
 
