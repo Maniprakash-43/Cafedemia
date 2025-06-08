@@ -278,9 +278,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const user = firebase.auth().currentUser;
       if (!user) {
         Swal.fire({
-          icon: 'warning',
-          title: 'Please log in to view your orders.',
-        });
+title: 'Order Placed!',
+text: 'Your order was placed successfully.',
+icon: 'success',
+confirmButtonText: 'OK'
+}).then((result) => {
+if (result.isConfirmed) {
+// Redirect to Your Orders page
+window.location.href = 'user-orders.html';
+}
+});
         return;
       }
 
