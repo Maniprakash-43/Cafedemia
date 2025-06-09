@@ -252,8 +252,8 @@ function customerFooterUI() {
             <section class="container-min">                
                 <!-- Deep Devs Info -->
                 <main class="deep-devs flex">
-                    <div>© Copyright 2024 - 2025. All Rights Reserved</div>
-                    <div class="">Designed & Developed with By <a href="#">Mani Prakash</a></div>
+                    <div>© Copyright 2025 - 2027. All Rights Reserved</div>
+                    <div class="">Designed & Developed By <a href="#">Mani Prakash</a></div>
                 </main>
             </section>
         `;
@@ -271,8 +271,8 @@ function userFooterUI() {
             <section class="container-min">
                 <!-- Deep Devs Info -->
                 <main class="deep-devs flex">
-                    <div>© Copyright 2024 - 2025. All Rights Reserved</div>
-                    <div class="">Designed & Developed with By <a href="#">Mani Prakash</a></div>
+                    <div>© Copyright 2025 - 2027. All Rights Reserved</div>
+                    <div class="">Designed & Developed By <a href="#">Mani Prakash</a></div>
                 </main>
             </section>
         `;
