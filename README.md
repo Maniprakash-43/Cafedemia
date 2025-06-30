@@ -4,6 +4,6 @@
  - Deployed the project on Netlify, ensuring fast, reliable, and cross-platform access across both mobile and desktop
    devices, and showcasing it as a fully functional prototype for digital canteen operations in a real-time environment.
  
- – The front-end is designed to integrate with backend services, enabling functionalities for the digital canteen system.
+  – The front-end is designed to integrate with backend services, enabling functionalities for the digital canteen system.
 
  LINK for Website(Deployed on netlify)  : https://cafedemia.netlify.app/
